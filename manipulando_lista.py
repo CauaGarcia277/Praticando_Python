@@ -26,3 +26,21 @@ print(lista)
 ##Remove
 lista.remove(1.1)
 print(lista)
+
+##Pop para tirar um valor específico por posição
+lista.pop(0)
+print(lista)
+
+##Insert para inserir em uma posição específica
+lista.insert(2, 'Teste')
+print(lista)
+
+##Index para retornar a posição do vaslor
+lista = lista.index('Teste')
+print(lista)
+
+##Sort para organizar
+teste = ['Amora', 'Beterraba', 'Ameixa', 'Cenoura']
+
+teste.sort()
+print(teste)
