@@ -1,0 +1,17 @@
+#def media():
+ #   calculo = (10 + 9 + 8) / 3
+  #  print(calculo)
+
+
+#media()
+
+def media(nota_1, nota_2, nota_3):
+   calculo = (nota_1 + nota_2 + nota_3) / 3
+   print(calculo)
+
+
+
+azul = 5
+amarelo = 2
+preto = 5
+media(azul, amarelo, preto)
